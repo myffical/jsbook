@@ -1,0 +1,67 @@
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.0em;
+	margin: 0.5em 0em 0.25em;
+	margin-bottom: 0.5em;
+	color: #000;
+}
+
+h1 { font-size: 24pt }
+h2 { font-size: 16pt }
+h3 { font-size: 12pt }
+h4 { font-size: 12pt }
+h5 { font-size: 12pt }
+h6 { font-size: 12pt }
+
+p, li, dd, dt, td, pre {
+	font-size: 11pt;
+	line-height: 1.4em;
+	color: #333;
+	margin: 0.5em 0em;
+}
+
+li {
+	margin: 0em 0em 0em 1.5em;
+	list-style: disc;
+}
+
+dt {
+	font-weight: bold;
+}
+
+pre {
+	font-family: monospace;
+}
+
+code {
+	font-size: 10pt;
+}
+
+h1 code { font-size: 32pt }
+h2 code { font-size: 21pt }
+h3 code { font-size: 18pt }
+h4 code { font-size: 16pt }
+h5 code { font-size: 14pt }
+h6 code { font-size: 12pt }
+
+.wrapper {
+	max-width: 960px;
+	margin: 0px auto;
+}
+
+/*
+.highlight {
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #999;
+}
+
+.highlight pre {
+	margin: 0px;
+}
+*/

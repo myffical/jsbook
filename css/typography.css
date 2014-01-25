@@ -1,0 +1,50 @@
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.0em;
+	margin: 0.5em 0em;
+	margin-bottom: 0.5em;
+	color: #000;
+}
+
+h1 { font-size: 24pt }
+h2 { font-size: 18pt }
+h3 { font-size: 16pt }
+h4 { font-size: 14pt }
+h5 { font-size: 14pt }
+h6 { font-size: 14pt }
+
+p, li, dd, dt, td, pre {
+	font-size: 13pt;
+	line-height: 1.5em;
+	color: #333;
+}
+
+dt {
+	font-weight: bold;
+}
+
+pre {
+	font-size: 12pt;
+	font-family: 'Source Code Pro', monospace;
+}
+
+code {
+	font-size: 12pt;
+	font-family: 'Source Code Pro', monospace;
+}
+
+h1 code { font-size: 21pt }
+h2 code { font-size: 16pt }
+h3 code { font-size: 14pt }
+h4 code { font-size: 13pt }
+h5 code { font-size: 13pt }
+h6 code { font-size: 13pt }
+
+.wrapper {
+	max-width: 960px;
+	margin: 0px auto;
+}
